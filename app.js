@@ -5,7 +5,7 @@
 // 3) Создайте input в HTML, куда пользователь может вводить название цвета (red, blue, green и т. д.). При вводе цвета (в input), фон страницы должен менять цвет в реальном времени когда инпут меняется.
 
 const indicator = document.querySelector("#indicator");
-const increment = document.querySelector("#increments"); // Проверьте, что в HTML именно id="increments", а не "increment"
+const increment = document.querySelector("#increments"); 
 const decrement = document.querySelector("#decrement");
 
 let counter = 0;
