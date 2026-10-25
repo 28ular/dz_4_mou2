@@ -1,0 +1,28 @@
+.increment {
+  color: green;
+}
+.decrement {
+  color: red;
+}
+
+.block {
+  width: 500px;
+  height: 500px;
+  background:gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+    margin-bottom: 200px;
+
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background:red;
+    position: absolute;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.77, 0, 0.175, 1);
+}
