@@ -18,7 +18,7 @@ updateCounter();
 
 increment.addEventListener("click", () => {
   counter++;
-  indicator.className = "increment";
+  indicator.className = "increment";//бр патапом
   updateCounter();
 });
 
